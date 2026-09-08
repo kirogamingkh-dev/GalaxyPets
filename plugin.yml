@@ -1,0 +1,20 @@
+name: GalaxyPets
+version: 1.0.0
+main: io.github.kirogamingkhdev.galaxypets.GalaxyPets
+api-version: '1.21.11'
+
+author: kirogamingkh-dev
+description: GalaxyPets for GalaxySMP
+
+commands:
+  pets:
+    description: Open the GalaxyPets menu
+    usage: /pets
+    aliases:
+      - pet
+    permission: galaxypets.use
+
+permissions:
+  galaxypets.use:
+    description: Allows players to use GalaxyPets
+    default: true
